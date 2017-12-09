@@ -6,6 +6,8 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
  if &compatible
    set nocompatible               " Be iMproved
  endif
+ " set line number
+ set number
 
  " Required:
  set runtimepath+=~/.vim/bundle/neobundle.vim/
