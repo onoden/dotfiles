@@ -1,6 +1,5 @@
 imap <C-j> <esc>
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
-
 " Note: Skip initialization for vim-tiny or vim-small.
  if 0 | endif
 
@@ -17,6 +16,9 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
  " Let NeoBundle manage NeoBundle
  " Required:
  NeoBundleFetch 'Shougo/neobundle.vim'
+ NeoBundle 'moll/vim-node'
+ NeoBundle 'pangloss/vim-javascript'
+ NeoBundle 'Townk/vim-autoclose'
  NeoBundle 'sjl/badwolf'
  NeoBundle 'nathanaelkane/vim-indent-guides'
  NeoBundle 'Shougo/neocomplcache'
